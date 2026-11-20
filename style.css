@@ -1,0 +1,1352 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: CourierP;
+    src: url("fonts/CourierPrime-Regular.ttf") 
+}
+
+@font-face{
+    font-family: HelveticaN;
+    src: url("fonts/HelveticaNeue-Bold.otf") 
+}
+
+@font-face{
+    font-family: CourierN;
+    src: url("fonts/ofont.ru_Courier-New.woff") 
+}
+
+header{
+    height: 775px;
+    width: 100%;
+    background-image: url("images/Virgil\ Abloh\ Main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 55px 30px 55px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "HelveticaN";
+}
+
+header>nav>img{
+    width: 230px;
+    border-radius: 20px;
+}
+
+.ots{
+    width: 650px;
+    position: relative;
+    margin-top: 65px;
+}
+
+.ots>h1{
+    font-family: "HelveticaN";
+    font-size: 75px;
+    margin-left: 50px;
+}
+
+.ots>h2{
+    font-family: "HelveticaN";
+    font-size: 37px;
+    width: 380px;
+    text-align: right;
+    margin-left: 270px;
+}
+
+.ops>p{
+    font-size: 17px;
+    width: 575px;
+    font-family: "CourierP";
+    text-align: right;
+    position: relative;
+    top: 200px;
+    left: 770px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.ops hr{
+    width: 300px;
+    height: 4px;
+    background-color: black;
+    position: relative;
+    border: none;
+}
+
+.top{
+    top: 195px;
+    left: 1110px;
+}
+
+.bot{
+    top: 210px;
+    left: 700px;
+}
+
+.beg{
+    width: 550px;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.beg>h1{
+    font-size: 30px;
+    font-family: "HelveticaN";
+    margin: 30px 0 30px 60px;
+}
+
+.com{
+    display: flex;
+    width: 100%;
+}
+
+.com p{
+    width: 620px;
+    font-size: 17px;
+    font-family: "CourierP";
+    margin: 30px;
+    line-height: 25px;
+}
+
+.aft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vir{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aft>p{
+    text-align: left;
+}
+
+.vir>p{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.aft>img{
+    width: 370px;
+    text-align: center;
+}
+
+.vir>img{
+    width: 480px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vid{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 90px;
+    margin-bottom: 80px;
+}
+
+iframe{
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.vid h1{
+    font-family: "HelveticaN";
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.bro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 550px;
+    padding: 0 100px;
+}
+
+.tex{
+    width: 560px;
+}
+
+.tex h1{
+    font-size: 20px;
+    font-family: "HelveticaN";
+    margin: 10px 10px 10px 0;
+}
+
+.tex p{
+    font-size: 15px;
+    font-family: "CourierP";
+    text-align: left;
+    margin: 25px 0;
+    line-height: 19px;
+}
+
+.tex hr{
+    height: 5px;
+    width: 470px;
+    background-color: black;
+    border: none;
+}
+
+.one img{
+    width: 280px;
+    height: 420px;
+}
+
+.tre{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.tre img{
+    width: 230px;
+    margin: 20px 0 0 0;
+}
+
+.quo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.quo h1{
+    font-size: 25px;
+    font-family: "HelveticaN";
+}
+
+.quo p{
+    font-size: 20px;
+    font-family: "CourierN";
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.quo div{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 0 100px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 50px 0 0 0;
+}
+
+.quo hr{
+    height: 120px;
+    width: 5px;
+    background-color: black;
+    border: none;
+    margin: 50px 0 0 0;
+}
+
+.sec{
+    width: 100%;
+    height: 1840px;
+    padding: 0 160px;
+    margin-top: 150px;
+}
+
+.sec h1{
+    font-family: "HelveticaN";
+    font-size: 30px;
+    text-align: right;
+    margin: 50px 0 60px 50px;
+}
+
+.sec h2{
+    font-family: "HelveticaN";
+    font-size: 24px;
+    margin: 15px 0 20px 0; 
+}
+
+.sec p{
+    font-family: "CourierP";
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+#ext{
+    width: 515px;
+}
+
+.ext1{
+    text-align: left
+}
+
+#abs{
+    position: relative;
+    display: flex;
+}
+
+#abs img{
+    position: absolute;
+}
+
+#oto{
+    width: 700px;
+}
+
+.img1{
+    width: 315px;
+    right: 355px;
+    z-index: 2;
+}
+
+.img2{
+    width: 330px;
+    left: 910px;
+    bottom: 230px;
+    z-index: 5;
+}
+
+.img3{
+    width: 280px;
+    top: 230px;
+    left: 550px;
+    z-index: 3;
+}
+
+.img4{
+    width: 245px;
+    top: 120px;
+    left: 770px;
+}
+
+.img5{
+    width: 240px;
+    left: 950px;
+    top: 190px;
+}
+
+.ext2{
+    text-align: right;
+}
+
+.img6{
+    width: 170px;
+    left: 450px;
+    bottom: 150px;
+    z-index: 4;
+}
+
+.img7{
+    width: 400px;
+    top: 20px;
+    left: 80px;
+}
+
+.ext3{
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    left: 90px;
+}
+
+.img8{
+    width: 375px;
+    left: 700px;
+    top: 30px;
+}
+
+.ext4{
+    width: 550px;
+}
+
+.img9{
+    width: 315px;
+    top: -40px;
+}
+
+.img10{
+    width: 350px;
+    right: 130px;
+    top: 40px;
+}
+
+.img11{
+    width: 200px;
+    left: 950px;
+}
+
+.img12{
+    width: 200px;
+    top: 140px;
+    left: 520px;
+}
+
+.img13{
+    width: 325px;
+    top: 250px;
+    left: 790px;
+}
+
+.col{
+    height: 390px;
+    padding: 0 100px;
+}
+
+.col>h1{
+    font-family: "HelveticaN";
+    font-size: 25px;
+    width: 100%;
+    margin: 20px;
+}
+
+.col div{
+    width: 100%;
+    text-align: right;
+}
+
+.ons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ons img{
+    width: 200px;
+    margin: 0 30px;
+}
+
+.col a{
+    font-family: "HelveticaN";
+    font-size: 17px;
+    border: solid 2px black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.col div{
+    position: relative;
+}
+
+.col hr{
+    width: 210px;
+    position: absolute;
+    height: 5px;
+    border: none;
+    background-color: white;
+    left: 390px;
+    bottom: 25px;
+}
+
+.dea{
+    height: 2300px;
+    width: 100%;
+    padding: 0 180px;
+    margin-top: 100px;
+}
+
+.dea h1{
+    font-family: "HelveticaN";
+    font-size: 30px;
+    margin: 10px 0 30px 0;
+}
+
+.dea h2{
+    font-family: "HelveticaN";
+    font-size: 24px;
+    margin: 15px 0 20px 0; 
+}
+
+.dea p{
+    font-family: "CourierP";
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+.ext5{
+    width: 560px;
+    text-align: right;
+}
+
+.oto5{
+    width: calc(100% - 560px);
+    height: 330px;
+}
+
+.img14{
+    width: 445px;
+    left: 60px;
+}
+
+.ext6{
+    width: 375px;
+    text-align: left;
+}
+
+.oto6{
+    width: calc(100% - 375px)
+}
+
+.img15{
+   width: 375px; 
+   left: 490px;
+   top: -5px;
+}
+
+.img16{
+    width: 300px;
+    left: 875px;
+    top: -20px;
+}
+
+.img17{
+    width: 370px;
+    top: 210px;
+    left: 500px;
+}
+
+.img18{
+    width: 275px;
+    top: 150px;
+    left: 900px;
+}
+
+.img19{
+    width: 200px;
+    top: 360px;
+    left: 500px;
+}
+
+.img20{
+    width: 285px;
+    top: 455px;
+    left: 750px;
+    z-index: 2;
+}
+
+.img21{
+    width: 360px;
+    top: 320px;
+    left: 840px;
+}
+
+.img22{
+   width: 240px; 
+}
+
+.img23{
+   width: 200px; 
+   left: 265px;
+}
+
+.img24{
+    width: 285px;
+    top: 60px;
+    left: 370px;
+}
+
+.img25{
+    width: 210px;
+    top: 180px;
+    left: 20px;
+    z-index: 1;
+}
+
+.img26{
+    width: 220px;
+    top: 180px;
+    left: 180px;
+    z-index: 3;
+}
+
+.img27{
+    width: 350px;
+    top: 260px;
+    left: 260px;
+    z-index: 2;
+}
+
+.img28{
+    width: 370px;
+    top: 430px;
+}
+
+.img29{
+    width: 355px;
+    left: 370px;
+    top: 470px;
+}
+
+.oto7{
+    width: calc(100% - 460px)
+}
+
+.ext7{
+    width: 460px;
+    text-align: right;
+}
+
+.ext7 p{
+    width: 400px;
+    margin-left: 60px;
+}
+
+.oto8{
+    width: calc(100% - 580px)
+}
+
+.ext8{
+    width: 550px;
+    text-align: left;
+    height: 305px;
+}
+
+.img30{
+    width: 200px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.img31{
+    width: 365px;
+    left: 720px;
+    bottom: 20px;
+}
+
+.abl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.abl>p{
+    width: 750px;
+}
+
+.tha{
+    background-image: url("https://cdn.mens-folio.com/2020/04/ezgif-4-303e5c22ef00-scaled-2048x1280.jpg?lossy=1&webp=92&ssl=1");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tha>h1{
+    color: white;
+    font-family: "HelveticaN";
+    font-size: 80px;
+    width: 1020px;
+    text-align: center;
+}
+
+.ema{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ema>h1{
+    font-family: "HelveticaN";
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.ema>h2{
+    font-family: "HelveticaN";
+    font-size: 25px;
+    text-align: center;
+    width: 540px;
+    margin: 15px 0 50px 0;
+}
+
+.inp label{
+    font-family: "CourierP";
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.inp{
+    width: 600px;
+    height: 360px;
+    margin-bottom: 50px;
+}
+
+#lon{
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    display: flex;
+}
+
+#sho{
+    width: 290px;
+}
+
+input[type="email"]{
+    border: black solid 1px;
+    font-family: "HelveticaN";
+    font-size: 15px;
+    height: 50px;
+    margin: 0 0 30px 0;
+    padding: 15px;;
+}
+
+.inp>a{
+    font-family: "CourierP";
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    height: 315px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    padding-bottom: 50px;
+}
+
+footer a{
+    font-family: "CourierP";
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+
+footer p{
+    font-size: 15px;
+    font-family: "CourierP";
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.rhi{
+    height: 200px;
+}
+
+.rhi>img{
+    width: 240px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.rhi>div{
+    margin-top: 50px;
+}
+
+#folmen{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+#folmen div{
+    margin: 50px;
+}
+
+@media (min-width: 1537px){
+    .ops{
+        max-width: 1520px;
+        margin: 0 auto;
+    }
+
+    .beg, .vid, .bro, .quo, .sec, .col, .dea{
+        max-width: 1520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1536px){
+    .ops>p{
+        left: calc(100% - 750px);
+    }
+
+    .top{
+        left: calc(100% - 410px);
+    }
+
+    .bot{
+        left: calc(100% - 820px);
+    }
+
+    .com p{
+        width: auto;
+    }
+
+    .sec, .dea{
+        padding: 0 40px;
+    }
+
+    .sec #abs{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .dea #abs{
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1300px){
+    header{
+        height: auto;
+        padding-bottom: 60px;
+        background-position: 60% center;
+    }
+
+    .ops>p{
+        top: 0;
+        left: 0;
+        margin: 30px 40px 0 auto;
+        max-width: calc(100% - 80px);
+    }
+
+    .top{
+        top: 0;
+        left: 0;
+        margin: 120px 40px 0 auto;
+    }
+
+    .bot{
+        top: 0;
+        left: 0;
+        margin: 30px 355px 0 auto;
+    }
+
+    .beg{
+        padding: 0 40px;
+    }
+
+    .aft>img, .vir>img{
+        max-width: 100%;
+    }
+
+    .vid{
+        padding: 0 40px;
+        gap: 40px;
+    }
+
+    .vid>div{
+        flex: 1;
+    }
+
+    iframe{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 560 / 300;
+    }
+
+    .bro{
+        padding: 0 40px;
+    }
+
+    .quo div{
+        padding: 0 50px;
+    }
+
+    .sec{
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .dea{
+        height: auto;
+    }
+
+    .sec #abs, .dea #abs{
+        max-width: none;
+        flex-direction: column;
+        margin: 0 0 50px 0;
+    }
+
+    #ext, .ext5, .ext6, .ext7, .ext8{
+        width: 100%;
+        height: auto;
+    }
+
+    .ext3{
+        bottom: 0;
+        left: 0;
+    }
+
+    .ext7 p{
+        width: auto;
+        margin-left: 0;
+    }
+
+    #oto, .oto5, .oto6, .oto7, .oto8{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 30px;
+        order: 2;
+    }
+
+    #abs img{
+        position: static;
+        width: auto;
+        height: 250px;
+        flex: 1 1 auto;
+        object-fit: cover;
+    }
+
+    .col{
+        padding: 0 40px;
+    }
+
+    .tha>h1{
+        width: 90%;
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1024px){
+    .ots{
+        width: 520px;
+    }
+
+    .ots>h1{
+        font-size: 60px;
+    }
+
+    .ots>h2{
+        font-size: 30px;
+        width: 305px;
+        margin-left: 215px;
+    }
+
+    .bro{
+        flex-wrap: wrap;
+        height: auto;
+        row-gap: 40px;
+    }
+
+    .tex{
+        width: 100%;
+    }
+
+    .tex hr{
+        width: 85%;
+    }
+
+    .quo hr{
+        display: none;
+    }
+
+    .quo div{
+        width: 50%;
+        padding: 0 40px;
+    }
+
+    .col{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .ons{
+        flex-wrap: wrap;
+    }
+
+    .ons img{
+        width: 30%;
+        margin: 15px 9%;
+    }
+
+    .abl>p{
+        width: 100%;
+    }
+
+    .tha{
+        height: 600px;
+    }
+
+    .tha>h1{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px){
+    header>nav{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-content: space-around;
+        justify-items: center;
+        row-gap: 20px;
+        padding: 20px;
+    }
+
+    header>nav>img{
+        grid-column: 1 / -1;
+        order: -1;
+        width: 200px;
+    }
+
+    header a{
+        font-size: 16px;
+    }
+
+    .ots{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .ots>h1{
+        font-size: 46px;
+        margin-left: 30px;
+    }
+
+    .ots>h2{
+        font-size: 24px;
+        width: 245px;
+        margin-left: 145px;
+    }
+
+    .ops>p{
+        font-size: 15px;
+        margin: 30px 20px 0 auto;
+        max-width: calc(100% - 40px);
+    }
+
+    .ops hr{
+        width: 200px;
+    }
+
+    .top{
+        margin: 60px 20px 0 auto;
+    }
+
+    .bot{
+        margin: 30px auto 0 20px;
+    }
+
+    .beg{
+        padding: 0 20px;
+    }
+
+    .beg>h1{
+        font-size: 26px;
+        margin: 30px 0 10px 0;
+    }
+
+    .com{
+        flex-direction: column;
+    }
+
+    .aft, .vir{
+        width: 100%;
+    }
+
+    .com p{
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .vir>img{
+        margin-bottom: 20px;
+    }
+
+    .vid{
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 0;
+        margin-bottom: 50px;
+    }
+
+    .vid>div{
+        flex: none;
+        width: 100%;
+    }
+
+    iframe{
+        margin-top: 40px;
+    }
+
+    .vid h1{
+        font-size: 17px;
+    }
+
+    .bro{
+        padding: 0 20px;
+    }
+
+    .one{
+        width: 100%;
+        text-align: center;
+    }
+
+    .one img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        aspect-ratio: 2 / 3;
+        object-fit: cover;
+    }
+
+    .tre{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tre img{
+        width: 32%;
+        margin: 0;
+    }
+
+    .quo{
+        margin-top: 20px;
+    }
+
+    .quo div{
+        width: 100%;
+        padding: 0 20px;
+        margin: 40px 0 0 0;
+    }
+
+    .quo h1{
+        font-size: 21px;
+    }
+
+    .quo p{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .sec, .dea{
+        padding: 0 20px;
+        margin-top: 60px;
+    }
+
+    .sec h1{
+        font-size: 24px;
+        text-align: left;
+        margin: 30px 0;
+    }
+
+    .dea h1{
+        font-size: 24px;
+    }
+
+    .sec h2, .dea h2{
+        font-size: 20px;
+    }
+
+    .sec p, .dea p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #ext, .ext5, .ext6, .ext7, .ext8{
+        text-align: left;
+    }
+
+    #abs img{
+        height: 180px;
+    }
+
+    .col{
+        padding: 0 20px 40px 20px;
+    }
+
+    .col>h1{
+        font-size: 22px;
+        width: auto;
+        margin: 20px 0;
+    }
+
+    .col div{
+        text-align: center;
+    }
+
+    .col hr{
+        display: none;
+    }
+
+    .tha{
+        height: 450px;
+    }
+
+    .tha>h1{
+        font-size: 42px;
+    }
+
+    .ema>h1{
+        font-size: 34px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .ema>h2{
+        font-size: 20px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .inp{
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .two{
+        flex-direction: column;
+    }
+
+    .two>div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sho{
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px 40px 20px;
+    }
+
+    .rhi{
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rhi>img{
+        width: 200px;
+        margin-top: 0;
+    }
+
+    .rhi>div{
+        margin-top: 30px;
+    }
+
+    #folmen{
+        height: auto;
+    }
+
+    #folmen div{
+        margin: 30px 40px 0 40px;
+    }
+}
+
+@media (max-width: 480px){
+    header>nav{
+        grid-template-columns: repeat(2, auto);
+    }
+
+    header>nav>img{
+        width: 170px;
+    }
+
+    header a{
+        font-size: 15px;
+    }
+
+    .ots>h1{
+        font-size: 34px;
+        margin-left: 20px;
+    }
+
+    .ots>h2{
+        font-size: 18px;
+        width: 185px;
+        margin-left: 110px;
+    }
+
+    .ops>p{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .ops hr{
+        width: 120px;
+    }
+
+    .tex hr{
+        width: 100%;
+    }
+
+    .quo h1{
+        font-size: 19px;
+    }
+
+    #abs img{
+        height: 140px;
+    }
+
+    .ons img{
+        width: 40%;
+        margin: 10px 5%;
+    }
+
+    .tha{
+        height: 350px;
+    }
+
+    .tha>h1{
+        font-size: 30px;
+    }
+
+    .ema>h1{
+        font-size: 26px;
+    }
+
+    .ema>h2{
+        font-size: 17px;
+    }
+
+    footer a, footer p{
+        font-size: 14px;
+    }
+
+    #folmen div{
+        margin: 30px 20px 0 20px;
+    }
+}

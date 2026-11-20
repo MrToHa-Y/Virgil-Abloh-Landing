@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: CourierP;
+    src: url("../fonts/CourierPrime-Regular.ttf") 
+}
+
+@font-face{
+    font-family: HelveticaN;
+    src: url("../fonts/HelveticaNeue-Bold.otf") 
+}
+
+@font-face{
+    font-family: CourierN;
+    src: url("../fonts/ofont.ru_Courier-New.woff") 
+}
+
+header{
+    height: 80px;
+    width: 100%;
+}
+
+header>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "HelveticaN";
+}
+
+header>nav>img{
+    width: 230px;
+    border-radius: 20px;
+}
+
+main>div{
+    height: 780px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+main>div>div{
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+}
+
+main h1{
+    font-size: 35px;
+    font-family: "HelveticaN";
+    margin: 20px 20px 10px 20px;
+}
+
+main p{
+    font-size: 17px;
+    font-family: "CourierP";
+    margin: 0 20px 8px 20px;
+    line-height: 22px;
+}
+
+main a{
+    font-size: 17px;
+    font-family: "CourierP";
+    border: solid black 3px;
+    border-radius: 15px;
+    width: 175px;
+    height: 40px;
+    padding: 7px 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lou{
+    background-image: url("https://media.gq.com/photos/5c37b05dbecc5854218df988/16:9/w_1280,c_limit/louis-vuitton-SS19-pop-up-gq-1.jpg?mbid=social_retweet");
+}
+
+.lou>div{
+    width: 545px;
+    height: 350px;
+    top: 150px;
+    left: 150px;
+}
+
+.lou>div>h1{
+    margin-bottom: 40px;
+}
+
+.lou>div>p{
+    margin-right: 70px;
+}
+
+.lou>div>a{
+    margin-left: 345px;
+}
+
+.ike{
+    background-image: url("https://fashionmagazine.mblycdn.com/uploads/fm/2019/10/Screen-Shot-2019-10-02-at-2.58.51-PM.png");
+}
+
+.ike>div{
+    width: 480px;
+    height: 440px;
+    top: 270px;
+    left: 130px;
+}
+
+.ike>div>p{
+    margin: 0 70px 30px 20px;
+}
+
+.ike>div>a{
+    margin-left: 280px;
+}
+
+.nik{
+    background-image: url("https://blog.architizer.com/wp-content/uploads/VIRGFEAT-copy.jpg");
+}
+
+.nik>div{
+    width: 765px;
+    height: 315px;
+    top: 30px;
+    left: 100px;
+}
+
+.nik>div>a{
+    margin-left: 560px;
+}
+
+.mer{
+    background-image: url("https://ascentialcdn.filespin.io/api/v1/conversion/0bda710c391945bb8c884866a9d0cefb");
+}
+
+.mer>div{
+    width: 590px;
+    height: 380px;
+    left: 810px;
+    top: 280px;
+}
+
+.mer>div>p{
+    margin: 0 40px 25px 20px;
+}
+
+.mer>div>a{
+    margin-left: 390px;
+}
+
+.con{
+    background-image: url("https://assets-global.website-files.com/62fe3f004c3de985c9e10052/6486c13617f713d4d9edda47_000-nike-off-Landscape.jpg");
+}
+
+.con>div{
+    width: 295px;
+    height: 680px;
+    top: 20px;
+    left: 100px;
+}
+
+.con>div>p{
+    margin-bottom: 30px;
+}
+
+.con>div>a{
+    margin-left: 100px;
+}
+
+footer{
+    height: 315px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    padding-bottom: 50px;
+}
+
+footer a{
+    font-family: "CourierP";
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+
+footer p{
+    font-size: 15px;
+    font-family: "CourierP";
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.rhi{
+    height: 200px;
+}
+
+.rhi>img{
+    width: 240px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.rhi>div{
+    margin-top: 50px;
+}
+
+#folmen{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+#folmen div{
+    margin: 50px;
+}
+
+@media (max-width: 1450px){
+    .mer>div{
+        left: auto;
+        right: 100px;
+    }
+}
+
+@media (max-width: 1024px){
+    main>div{
+        height: auto;
+        padding: 400px 40px 40px 40px;
+    }
+
+    .lou>div, .ike>div, .nik>div, .mer>div, .con>div{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: auto;
+        width: 100%;
+        max-width: 620px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .mer>div{
+        margin-left: auto;
+    }
+
+    .lou>div>h1{
+        margin-bottom: 10px;
+    }
+
+    .lou>div>p, .ike>div>p, .nik>div>p, .mer>div>p, .con>div>p{
+        margin: 0 20px 15px 20px;
+    }
+
+    .lou>div>a, .ike>div>a, .nik>div>a, .mer>div>a, .con>div>a{
+        display: block;
+        width: fit-content;
+        height: auto;
+        margin: 10px 20px 0 auto;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        height: auto;
+    }
+
+    header>nav{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-content: space-around;
+        justify-items: center;
+        row-gap: 15px;
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    header>nav>img{
+        grid-column: 1 / -1;
+        order: -1;
+        width: 200px;
+    }
+
+    header a{
+        font-size: 16px;
+    }
+
+    main>div{
+        padding: 300px 20px 20px 20px;
+        margin-bottom: 30px;
+    }
+
+    .lou>div, .ike>div, .nik>div, .mer>div, .con>div{
+        max-width: none;
+    }
+
+    main h1{
+        font-size: 28px;
+    }
+
+    main p{
+        font-size: 16px;
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px 40px 20px;
+    }
+
+    .rhi{
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rhi>img{
+        width: 200px;
+        margin-top: 0;
+    }
+
+    .rhi>div{
+        margin-top: 30px;
+    }
+
+    #folmen{
+        height: auto;
+    }
+
+    #folmen div{
+        margin: 30px 40px 0 40px;
+    }
+}
+
+@media (max-width: 480px){
+    header>nav{
+        grid-template-columns: repeat(2, auto);
+    }
+
+    header>nav>img{
+        width: 170px;
+    }
+
+    header a{
+        font-size: 15px;
+    }
+
+    main>div{
+        padding-top: 220px;
+    }
+
+    main h1{
+        font-size: 24px;
+        margin: 15px 15px 10px 15px;
+    }
+
+    main p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .lou>div>p, .ike>div>p, .nik>div>p, .mer>div>p, .con>div>p{
+        margin: 0 15px 15px 15px;
+    }
+
+    .lou>div>a, .ike>div>a, .nik>div>a, .mer>div>a, .con>div>a{
+        margin: 10px 15px 0 auto;
+    }
+
+    footer a, footer p{
+        font-size: 14px;
+    }
+
+    #folmen div{
+        margin: 30px 20px 0 20px;
+    }
+}
